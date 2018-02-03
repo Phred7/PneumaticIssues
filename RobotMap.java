@@ -90,12 +90,12 @@ public class RobotMap {
 		DTELeft = new Encoder(0, 1);
 		DTERight = new Encoder(2, 3);
 		
-		pnueCompressor = new Compressor(2);
+		pnueCompressor = new Compressor(0);
 		
-		Extension = new DoubleSolenoid(2, 0, 1);
-		Spring = new Solenoid(2, 2);
+		Extension = new DoubleSolenoid(0, 0, 1);
+		Spring = new Solenoid(0, 2);
 		
-		LimIX = new DigitalInput(0);
+		LimIX = new DigitalInput(9);
 		
 		/*CameraServer server1 = CameraServer.getInstance();
 		server1.startAutomaticCapture();*/
